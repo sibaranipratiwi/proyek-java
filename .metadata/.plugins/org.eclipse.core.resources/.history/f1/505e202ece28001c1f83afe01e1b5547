@@ -1,0 +1,5 @@
+package com.berita.publisher.dto;
+
+public class StatusBerita {
+
+}

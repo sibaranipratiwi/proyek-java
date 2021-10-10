@@ -1,0 +1,18 @@
+package com.berita.publisher.config;
+
+import org.springframework.amqp.core.Queue;
+import org.springframework.amqp.core.TopicExchange;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class MessagingConfig {
+	
+	public Queue queue() {
+		return new Queue("Berita");
+	}
+	
+	public TopicExchange exchange() {
+		return new TopicExchange("Berita");
+	}
+
+}

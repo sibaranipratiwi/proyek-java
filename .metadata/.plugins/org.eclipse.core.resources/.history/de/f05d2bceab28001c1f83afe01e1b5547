@@ -1,0 +1,5 @@
+package com.berita.publisher.config;
+
+public class MessagingConfig {
+
+}

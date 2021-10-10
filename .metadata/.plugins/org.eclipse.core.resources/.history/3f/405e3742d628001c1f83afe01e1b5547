@@ -1,0 +1,5 @@
+package com.berita.publisher.consumer;
+
+public class Pembaca {
+
+}
